@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "category": "public",
+      "input": "22\n",
+      "output": "16\n"
+    },
+    {
+      "category": "public",
+      "input": "16\n",
+      "output": "5\n"
+    }
+  ]
+}
