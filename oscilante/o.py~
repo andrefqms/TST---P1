@@ -18,6 +18,7 @@ def numero_oscilante(entrada):
 	print diferente
 	if juntos > 0:
 		return 'verdadeiro'
+		break
 	elif juntos > 0:
 		return 'falso'
 

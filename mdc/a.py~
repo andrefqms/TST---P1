@@ -1,0 +1,14 @@
+numero1 = int(raw_input())
+
+numero2 = int(raw_input())
+if numero1 == 0:
+	print numero2
+elif numero2 == 0:
+	print numero1
+elif numero1 == numero2 and numero1 > 0:
+	print numero1
+if numero1 > numero2 and numero1 != 0 and numero2 != 0:
+	x = numero1 % numero2
+elif numero1<numero2 and numero1 != 0 and numero2 != 0:
+	x = numero2 % numero1
+print x

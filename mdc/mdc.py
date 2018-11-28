@@ -1,0 +1,31 @@
+# coding: utf-8
+# Aluno: André Filipe Queiroz
+# Matricula: 116210818
+# Atividade: MDC por Euclides
+
+while True:
+	numero1 = int(raw_input())
+	numero2 = int(raw_input())
+	if numero1 == 0:
+		print numero2
+	elif numero2 == 0:
+		print numero1
+	elif numero1 == numero2 and numero1 > 0:
+		print numero1
+	if numero1 > numero2 and numero2 != 0 and numero1> 0 and numero2 > 0:
+		while numero2 != 0:
+			resto = numero1 % numero2
+			numero1 = numero2 
+			numero2	= resto
+			if resto == 0:
+				print numero1
+	elif numero1 < numero2 and numero1 != 0 and numero1> 0 and numero2 > 0:
+		
+		while numero1 != 0:
+			resto = numero2 % numero1
+			numero2 = numero1 
+			numero1	= resto
+			if resto == 0:
+				print numero2
+		
+	break
